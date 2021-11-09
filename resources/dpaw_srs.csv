@@ -1,0 +1,2 @@
+'WA Albers Equal Conic (AGD)';'aea';'aust_SA';'+proj=aea +lat_1=-17.5 +lat_2=-31.5 +lat_0=0 +lon_0=121 +x_0=5000000 +y_0=10000000 +ellps=aust_SA +towgs84=-134,-48,149,0,0,0,0 +units=m +no_defs';-1;'DPaW';'Albers AGD';0;0;0;
+'WA Albers Equal Conic (GDA)';'aea';'GRS80';'+proj=aea +lat_1=-17.5 +lat_2=-31.5 +lat_0=0 +lon_0=121 +x_0=5000000 +y_0=10000000 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs';-2;'DPaW';'Albers GDA';0;0;0;

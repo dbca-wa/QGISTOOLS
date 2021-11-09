@@ -1,0 +1,241 @@
+<Composer title="A1 Landscape" visible="1">
+ <Composition gridVisible="0" printResolution="150" paperWidth="841" snapGridOffsetX="0" guidesVisible="1" snapGridResolution="0" snapGridOffsetY="0" alignmentSnap="1" snapping="1" snapTolerancePixels="10" numPages="1" paperHeight="594" smartGuides="1" printAsRaster="1" generateWorldFile="0">
+  <symbol alpha="1" type="fill" name="">
+   <layer pass="0" class="SimpleFill" locked="0">
+    <prop k="border_width_map_unit_scale" v="0,0"/>
+    <prop k="color" v="255,255,255,255"/>
+    <prop k="joinstyle" v="bevel"/>
+    <prop k="offset" v="0,0"/>
+    <prop k="offset_map_unit_scale" v="0,0"/>
+    <prop k="offset_unit" v="MM"/>
+    <prop k="outline_color" v="0,0,0,255"/>
+    <prop k="outline_style" v="no"/>
+    <prop k="outline_width" v="0.26"/>
+    <prop k="outline_width_unit" v="MM"/>
+    <prop k="style" v="solid"/>
+   </layer>
+  </symbol>
+
+<!--Main Map-->
+  <ComposerMap mapRotation="0" keepLayerSet="false" id="0" previewMode="Render" drawCanvasItems="true">
+   <Extent/>
+   <LayerSet/>
+   <Grid/>
+   <!--Main Map > LatLong Graticule-->
+   <ComposerMapGrid name="Lat-Long Graticule" gridStyle="1" intervalX="1" intervalY="1" showAnnotation="1" annotationFormat="2" annotationPrecision="0" annotationFont="MS Shell Dlg 2,7,-1,5,50,0,0,0,0,0" annotationFontColor="255,0,0,255" bottomAnnotationDirection="0" bottomAnnotationPosition="1" rightAnnotationDirection="1" rightAnnotationPosition="1" topAnnotationDirection="0" topAnnotationPosition="1" leftAnnotationDirection="1" leftAnnotationPosition="1" blendMode="0" show="1" gridFrameWidth="1" gridFrameStyle="3" gridFrameSideFlags="15" gridFramePenColor="255,0,0,255"  gridFramePenThickness="0.3" offsetX="0" offsetY="0" frameAnnotationDistance="3" unit="0" uuid="{124ce121-29c6-46da-9fb5-1167559225e0}" crossLength="1.5">
+    <lineStyle>
+     <symbol alpha="1" type="line" name="">
+      <layer pass="0" class="SimpleLine" locked="0">
+       <prop k="capstyle" v="flat"/>
+       <prop k="customdash" v="5;2"/>
+       <prop k="customdash_map_unit_scale" v="0,0"/>
+       <prop k="customdash_unit" v="MM"/>
+       <prop k="draw_inside_polygon" v="0"/>
+       <prop k="joinstyle" v="bevel"/>
+       <prop k="line_color" v="255,0,0,255"/>
+       <prop k="line_style" v="solid"/>
+       <prop k="line_width" v="0.3"/>
+       <prop k="line_width_unit" v="MM"/>
+       <prop k="offset" v="0"/>
+       <prop k="offset_map_unit_scale" v="0,0"/>
+       <prop k="offset_unit" v="MM"/>
+       <prop k="use_custom_dash" v="0"/>
+       <prop k="width_map_unit_scale" v="0,0"/>
+      </layer>
+     </symbol>
+    </lineStyle>
+    <spatialrefsys>
+        <proj4>+proj=longlat +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +no_defs</proj4>
+        <srsid>3415</srsid>
+        <srid>4283</srid>
+        <authid>EPSG:4283</authid>
+        <description>GDA94</description>
+        <projectionacronym>longlat</projectionacronym>
+        <ellipsoidacronym>GRS80</ellipsoidacronym>
+        <geographicflag>true</geographicflag>
+    </spatialrefsys>
+   </ComposerMapGrid>
+ 
+   <!--Main Map > Easting-Northing Grid-->
+   <ComposerMapGrid name="East-North Grid" gridStyle="0" intervalX="100000" intervalY="100000" showAnnotation="1" annotationFormat="3" annotationPrecision="0" annotationFont="MS Shell Dlg 2,7,-1,5,50,0,0,0,0,0" annotationFontColor="0,0,255,255" bottomAnnotationDirection="0" bottomAnnotationPosition="1" rightAnnotationDirection="1" rightAnnotationPosition="1" topAnnotationDirection="0" topAnnotationPosition="1" leftAnnotationDirection="1" leftAnnotationPosition="1" blendMode="0" show="1" offsetX="0" offsetY="0" frameAnnotationDistance="1.5" unit="0" uuid="{79b123ab-4dd9-47b9-b5d7-f5288c1493af}" crossLength="1.5">
+    <lineStyle>
+     <symbol alpha="1" type="line" name="">
+      <layer pass="0" class="SimpleLine" locked="0">
+       <prop k="capstyle" v="square"/>
+       <prop k="customdash" v="5;2"/>
+       <prop k="customdash_map_unit_scale" v="0,0"/>
+       <prop k="customdash_unit" v="MM"/>
+       <prop k="draw_inside_polygon" v="0"/>
+       <prop k="joinstyle" v="bevel"/>
+       <prop k="line_color" v="0,0,255,255"/>
+       <prop k="line_style" v="solid"/>
+       <prop k="line_width" v="0.1"/>
+       <prop k="line_width_unit" v="MM"/>
+       <prop k="offset" v="0"/>
+       <prop k="offset_map_unit_scale" v="0,0"/>
+       <prop k="offset_unit" v="MM"/>
+       <prop k="use_custom_dash" v="0"/>
+       <prop k="width_map_unit_scale" v="0,0"/>
+      </layer>
+     </symbol>
+    </lineStyle>
+   </ComposerMapGrid>
+   
+   <!--Main Map > Composer Item-->
+   <ComposerItem pagey="16.7213" page="1" id="Main Map" lastValidViewScaleFactor="0.938543" positionMode="0" positionLock="false" x="12.0344" y="16.7213" visibility="1" zValue="1" background="false" transparency="0" frameJoinStyle="miter" blendMode="0" width="707.151" outlineWidth="1.3" excludeFromExports="0" uuid="{cbc16599-3adf-4593-b877-6eecb1514525}" height="539.256" itemRotation="0" frame="true" pagex="12.0344">
+    <FrameColor alpha="255" red="0" blue="0" green="0"/>
+    <BackgroundColor alpha="0" red="255" blue="255" green="255"/>
+   </ComposerItem>
+  </ComposerMap>
+
+<!--Overview Map-->
+  <ComposerMap mapRotation="0" keepLayerSet="false" id="1" previewMode="Render" drawCanvasItems="true">
+   <Extent ymin="6767635.14361996296793222" xmin="239545.66666666665696539" ymax="6767641.81028662994503975" xmax="239552.33333333331393078"/>
+   <LayerSet/>
+   <Grid/>
+   <ComposerMapOverview frameMap="0" centered="0" inverted="0" uuid="{cddf25c0-aad0-43c9-af26-e4a507c90b20}" name="Overview 1" show="1" blendMode="0">
+    <symbol alpha="0.3" type="fill" name="">
+     <layer pass="0" class="SimpleFill" locked="0">
+      <prop k="border_width_map_unit_scale" v="0,0"/>
+      <prop k="color" v="255,0,0,255"/>
+      <prop k="joinstyle" v="bevel"/>
+      <prop k="offset" v="0,0"/>
+      <prop k="offset_map_unit_scale" v="0,0"/>
+      <prop k="offset_unit" v="MM"/>
+      <prop k="outline_color" v="0,0,0,255"/>
+      <prop k="outline_style" v="no"/>
+      <prop k="outline_width" v="0.26"/>
+      <prop k="outline_width_unit" v="MM"/>
+      <prop k="style" v="solid"/>
+     </layer>
+    </symbol>
+   </ComposerMapOverview>
+   <ComposerItem pagey="378" page="1" id="Overview Map" lastValidViewScaleFactor="0.938543" positionMode="1" positionLock="false" x="735.030" y="378" visibility="1" zValue="14" background="true" transparency="0" frameJoinStyle="miter" blendMode="0" width="90" outlineWidth="0.6" excludeFromExports="0" uuid="{36064abd-072f-4673-8388-c9aae0f75066}" height="90" itemRotation="0" frame="true" pagex="735.030">
+    <FrameColor alpha="255" red="0" blue="0" green="0"/>
+    <BackgroundColor alpha="255" red="192" blue="255" green="232"/>
+   </ComposerItem>
+  </ComposerMap>
+
+<!--Legend-->
+  <ComposerLegend symbolWidth="5" title="Legend" boxSpace="0" splitLayer="1" equalColumnWidth="1" map="0" titleAlignment="1" symbolHeight="5" wmsLegendHeight="8" wrapChar="" fontColor="#000000" columnSpace="2" wmsLegendWidth="30" columnCount="1">
+   <styles>
+    <style marginBottom="2" name="title" font="MS Shell Dlg 2,20,-1,5,75,0,0,0,0,0"/>
+    <style marginTop="1" name="group" font="Arial,14,-1,5,50,0,0,0,0,0"/>
+    <style marginTop="1" name="subgroup" font="Arial,12,-1,5,50,0,0,0,0,0"/>
+    <style marginTop="1" name="symbol" font="MS Shell Dlg 2,8.25,-1,5,50,0,0,0,0,0"/>
+    <style marginTop="1" marginLeft="2" name="symbolLabel" font="Arial,10,-1,5,50,0,0,0,0,0"/>
+   </styles>
+   <layer-tree-group expanded="1" checked="Qt::Checked" name="">
+    <customproperties/>
+   </layer-tree-group>
+   <ComposerItem pagey="60" page="1" id="" lastValidViewScaleFactor="0.830912" positionMode="0" positionLock="false" x="750" y="60" visibility="1" zValue="2" background="false" transparency="0" frameJoinStyle="miter" blendMode="0" width="27" outlineWidth="0.3" excludeFromExports="0" uuid="{7efa9d08-47a5-4bc0-8659-9043fe3370e4}" height="12" itemRotation="0" frame="true" pagex="750">
+    <FrameColor alpha="255" red="0" blue="0" green="0"/>
+    <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
+   </ComposerItem>
+  </ComposerLegend>
+
+<!--North Arrow-->
+  <ComposerPicture resizeMode="0" pictureRotation="0" pictureWidth="5.15939" file="arcgis_north_arrow.png" pictureHeight="13.2292" mapId="-1" anchorPoint="1">
+   <ComposerItem pagey="295" page="1" id="North Arrow" lastValidViewScaleFactor="0.830912" positionMode="1" positionLock="false" x="775.531" y="295" visibility="1" zValue="5" background="false" transparency="0" frameJoinStyle="miter" blendMode="0" width="9" outlineWidth="0" excludeFromExports="0" uuid="{520ea007-c85f-404a-85e4-ddda2a359f6a}" height="28.392" itemRotation="0" frame="true" pagex="775.531">
+    <FrameColor alpha="0" red="255" blue="255" green="255"/>
+    <BackgroundColor alpha="0" red="255" blue="255" green="255"/>
+    <dataDefinedSource expr="" field="" active="false" useExpr="true"/>
+   </ComposerItem>
+  </ComposerPicture>
+  
+<!--Scalebar-->
+  <ScalebarCentre>785.867, 335.641</ScalebarCentre>
+  <ComposerScaleBar segmentMillimeters="18.5378" numMapUnitsPerScaleBarUnit="1000" numSegments="5" height="2" alignment="0" labelBarSpace="2" outlineWidth="1" units="0" numSegmentsLeft="0" lineJoinStyle="miter" style="Single Box" unitLabel="km" lineCapStyle="square" font="MS Shell Dlg 2,14,-1,5,50,0,0,0,0,0" mapId="0" boxContentSpace="0" numUnitsPerSegment="50000">
+   <fillColor alpha="255" red="0" blue="0" green="0"/>
+   <fillColor2 alpha="255" red="255" blue="255" green="255"/>
+   <strokeColor alpha="255" red="0" blue="0" green="0"/>
+   <textColor alpha="255" red="0" blue="0" green="0"/>
+   <ComposerItem pagey="330.691" page="1" id="Scalebar" lastValidViewScaleFactor="0.848133" positionMode="4" positionLock="false" x="745.511" y="330.691" visibility="1" zValue="3" background="false" transparency="0" frameJoinStyle="miter" blendMode="0" width="80.7121" outlineWidth="0.3" excludeFromExports="0" uuid="{b4abd5fb-d721-4f8d-b6ee-35e7fabc1139}" height="9.9" itemRotation="0" frame="false" pagex="745.511">
+    <FrameColor alpha="255" red="0" blue="0" green="0"/>
+    <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
+   </ComposerItem>
+  </ComposerScaleBar>
+
+<!--Numeric Scale-->
+  <ComposerScaleBar segmentMillimeters="0.148302" numMapUnitsPerScaleBarUnit="1000" numSegments="2" height="0" alignment="1" labelBarSpace="0" outlineWidth="0.01" units="0" numSegmentsLeft="0" lineJoinStyle="miter" style="Numeric" unitLabel="" lineCapStyle="square" font="MS Shell Dlg 2,12,-1,5,50,0,0,0,0,0" mapId="0" boxContentSpace="0" numUnitsPerSegment="400">
+   <fillColor alpha="255" red="0" blue="0" green="0"/>
+   <fillColor2 alpha="255" red="255" blue="255" green="255"/>
+   <strokeColor alpha="255" red="0" blue="0" green="0"/>
+   <textColor alpha="255" red="0" blue="0" green="0"/>
+   <ComposerItem pagey="321" page="1" id="Numeric Scale" lastValidViewScaleFactor="0.848133" positionMode="4" positionLock="false" x="760.224" y="321" visibility="1" zValue="10" background="false" transparency="0" frameJoinStyle="miter" blendMode="0" width="39.611" outlineWidth="0" excludeFromExports="0" uuid="{7ffaa843-f74a-4e4c-bf2c-b76a9ceb9cd7}" height="5.8133" itemRotation="0" frame="false" pagex="760.224">
+    <FrameColor alpha="255" red="0" blue="0" green="0"/>
+    <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
+   </ComposerItem>
+  </ComposerScaleBar>
+
+<!--Page Size Label-->
+  <ComposerLabel valign="128" labelText="(A1)" htmlState="0" halign="4" margin="0">
+   <LabelFont description="MS Shell Dlg 2,12,-1,5,50,0,0,0,0,0"/>
+   <FontColor red="0" blue="0" green="0"/>
+   <ComposerItem pagey="320.7" page="1" id="" lastValidViewScaleFactor="11.9047" positionMode="3" positionLock="false" x="787.5" y="20.7" visibility="1" zValue="9" background="false" transparency="0" frameJoinStyle="miter" blendMode="0" width="18.7479" outlineWidth="0" excludeFromExports="0" uuid="{0d518121-e73a-474c-87e9-4b55798d34f0}" height="5.8133" itemRotation="0" frame="true" pagex="787.5">
+    <FrameColor alpha="255" red="255" blue="255" green="255"/>
+    <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
+   </ComposerItem>
+  </ComposerLabel>
+
+<!--Map Title-->
+  <ComposerLabel valign="32" labelText="%T%" htmlState="0" halign="4" margin="0">
+   <LabelFont description="MS Shell Dlg 2,24,-1,5,75,0,0,0,0,0"/>
+   <FontColor red="0" blue="0" green="0"/>
+   <ComposerItem pagey="16.7213" page="1" id="" lastValidViewScaleFactor="0.830912" positionMode="1" positionLock="false" x="726.913" y="16.7213" visibility="1" zValue="9" background="false" transparency="0" frameJoinStyle="miter" blendMode="0" width="106.234" outlineWidth="0.3" excludeFromExports="0" uuid="{ae3f23ba-a5cf-4995-a6aa-9ea325e4a6fa}" height="42.2974" itemRotation="0" frame="false" pagex="726.913">
+    <FrameColor alpha="255" red="0" blue="0" green="0"/>
+    <BackgroundColor alpha="0" red="255" blue="255" green="255"/>
+   </ComposerItem>
+  </ComposerLabel>
+
+<!--Projection info-->
+  <ComposerLabel valign="32" labelText="Projection: %PROJ%&#xa;Datum: %DATUM%" htmlState="0" halign="4" margin="1">
+   <LabelFont description="MS Shell Dlg 2,12,-1,5,50,0,0,0,0,0"/>
+   <FontColor red="0" blue="0" green="0"/>
+   <ComposerItem pagey="344.981" page="1" id="" lastValidViewScaleFactor="0.830912" positionMode="4" positionLock="false" x="745.511" y="344.981" visibility="1" zValue="7" background="false" transparency="0" frameJoinStyle="miter" blendMode="0" width="69.039" outlineWidth="0" excludeFromExports="0" uuid="{260bcea1-a00e-4a42-885f-6e7668f09635}" height="16.8251" itemRotation="0" frame="false" pagex="745.511">
+    <FrameColor alpha="255" red="0" blue="0" green="0"/>
+    <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
+   </ComposerItem>
+  </ComposerLabel>
+
+<!--Job Ref and Production Time Label-->
+  <ComposerLabel valign="32" labelText="Job Ref:  %J%&#xa;Produced at %TIME% on %D%" htmlState="0" halign="4" margin="0">
+   <LabelFont description="MS Shell Dlg 2,12,-1,5,50,0,0,0,0,0"/>
+   <FontColor red="0" blue="0" green="0"/>
+  <ComposerItem pagey="547.934" page="1" id="" lastValidViewScaleFactor="0.830912" positionMode="1" positionLock="false" x="730.03" y="547.934" visibility="1" zValue="12" background="false" transparency="0" frameJoinStyle="miter" blendMode="0" width="100" outlineWidth="0.3" excludeFromExports="0" uuid="{1ae8630d-c801-4530-84b7-acd181266365}" height="16" itemRotation="0" frame="false" pagex="730.03">
+    <FrameColor alpha="255" red="0" blue="0" green="0"/>
+    <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
+   </ComposerItem>
+  </ComposerLabel>
+  
+<!--Produced By label-->
+  <ComposerLabel valign="128" labelText="Produced by %A%&#xa;%DEPT%" htmlState="0" halign="4" margin="1">
+   <LabelFont description="MS Shell Dlg 2,12,-1,5,50,0,0,0,0,0"/>
+   <FontColor red="0" blue="0" green="0"/>
+   <ComposerItem pagey="479.661" page="1" id="" lastValidViewScaleFactor="0.830912" positionMode="1" positionLock="false" x="747.5" y="479.661" visibility="1" zValue="11" background="false" transparency="0" frameJoinStyle="miter" blendMode="0" width="65" outlineWidth="0.3" excludeFromExports="0" uuid="{2f000212-2e16-4047-9be3-7fc431440ca8}" height="20.552" itemRotation="0" frame="false" pagex="747.5">
+    <FrameColor alpha="255" red="0" blue="0" green="0"/>
+    <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
+   </ComposerItem>
+  </ComposerLabel>
+
+<!--Disclaimer-->
+  <ComposerLabel valign="32" labelText="The %DEPT% does not guarantee that this map is without flaw of any kind and disclaims all liability for any errors, loss or other consequence which may arise from relying on any information depicted.  Roads and tracks on land managed by %DA% may contain unmarked hazards and their surface condition is variable.  Exercise caution and drive to conditions on all roads." htmlState="0" halign="4" margin="1">
+   <LabelFont description="MS Shell Dlg 2,10,-1,5,50,0,0,0,0,0"/>
+   <FontColor red="0" blue="0" green="0"/>
+   <ComposerItem pagey="575" page="1" id="" lastValidViewScaleFactor="0.830912" positionMode="0" positionLock="false" x="225.894" y="575" visibility="1" zValue="8" background="false" transparency="0" frameJoinStyle="miter" blendMode="0" width="220" outlineWidth="0.3" excludeFromExports="0" uuid="{65d8f0b5-122c-4388-bd03-b3d6ecdb2dbf}" height="15" itemRotation="0" frame="false" pagex="225.894">
+    <FrameColor alpha="255" red="0" blue="0" green="0"/>
+    <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
+   </ComposerItem>
+  </ComposerLabel>
+
+<!--Department Logo-->
+  <ComposerPicture resizeMode="0" pictureRotation="0" pictureWidth="79.4538" file="DPAW_rgb.jpg" pictureHeight="19.1205" mapId="-1" anchorPoint="4">
+   <ComposerItem pagey="508.605" page="1" id="Department Logo" lastValidViewScaleFactor="0.830912" positionMode="1" positionLock="false" x="740.303" y="508.605" visibility="1" zValue="4" background="false" transparency="0" frameJoinStyle="miter" blendMode="0" width="79.4538" outlineWidth="0.3" excludeFromExports="0" uuid="{46b0caf4-9374-457c-8a7c-f1ecdabf5b90}" height="21.611" itemRotation="0" frame="false" pagex="740.303">
+    <FrameColor alpha="255" red="0" blue="0" green="0"/>
+    <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
+    <dataDefinedSource expr="" field="" active="false" useExpr="true"/>
+   </ComposerItem>
+  </ComposerPicture>
+
+  </Composition>
+</Composer>

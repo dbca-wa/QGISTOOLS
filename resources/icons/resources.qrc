@@ -1,0 +1,41 @@
+<RCC>
+    <qresource prefix="/plugins/qgistools2" >
+        <file>DPAW.png</file>
+    </qresource>
+    
+    <qresource prefix="/plugins/qgistools2" >
+        <file>folder.png</file>
+    </qresource>
+    
+	<qresource prefix="/plugins/qgistools2" >
+        <file>globe.png</file>
+    </qresource>
+    
+	<qresource prefix="/plugins/qgistools2" >
+        <file>printer.png</file>
+    </qresource>
+	
+	<qresource prefix="/plugins/qgistools2" >
+        <file>page_white_gear.png</file>
+    </qresource>
+	
+	<qresource prefix="/plugins/qgistools2" >
+        <file>map.png</file>
+    </qresource>
+
+	<qresource prefix="/plugins/qgistools2" >
+        <file>map_cog.png</file>
+    </qresource>
+
+	<qresource prefix="/plugins/qgistools2" >
+        <file>map_edit.png</file>
+    </qresource>
+    
+	<qresource prefix="/plugins/qgistools2" >
+        <file>binocs.png</file>
+    </qresource>    
+    
+	<qresource prefix="/plugins/qgistools2" >
+        <file>refresh.png</file>
+    </qresource>        
+</RCC>

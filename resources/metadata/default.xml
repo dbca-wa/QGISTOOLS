@@ -1,0 +1,385 @@
+<?xml version="1.0"?>
+<!--<!DOCTYPE metadata SYSTEM "http://www.esri.com/metadata/esriprof80.dtd">-->
+<metadata xml:lang="en">
+   <Esri>
+      <MetaID></MetaID>
+
+      <CreaDate></CreaDate>
+
+      <CreaTime></CreaTime>
+
+      <SyncOnce></SyncOnce>
+
+      <SyncDate></SyncDate>
+
+      <SyncTime></SyncTime>
+
+      <ModDate></ModDate>
+
+      <ModTime></ModTime>
+   </Esri>
+
+   <idinfo>
+      <native Sync="TRUE">Microsoft Windows 2000 Version 5.0 (Build 2195) Service Pack 4; ESRI ArcCatalog 9.0.0.535</native>
+
+      <descript>
+         <langdata Sync="TRUE">en</langdata>
+
+         <abstract></abstract>
+
+         <purpose></purpose>
+      </descript>
+
+      <citation>
+         <citeinfo>
+            <origin></origin>
+
+            <pubdate></pubdate>
+
+            <title Sync="TRUE"></title>
+
+            <ftname Sync="TRUE"></ftname>
+
+            <geoform Sync="TRUE"></geoform>
+
+            <onlink Sync="TRUE"></onlink>
+         </citeinfo>
+      </citation>
+
+      <timeperd>
+         <current></current>
+
+         <timeinfo>
+            <sngdate>
+               <caldate></caldate>
+            </sngdate>
+         </timeinfo>
+      </timeperd>
+
+      <status>
+         <progress></progress>
+
+         <update></update>
+      </status>
+
+      <spdom>
+         <bounding>
+            <westbc Sync="TRUE"></westbc>
+
+            <eastbc Sync="TRUE"></eastbc>
+
+            <northbc Sync="TRUE"></northbc>
+
+            <southbc Sync="TRUE"></southbc>
+         </bounding>
+
+         <lboundng>
+            <leftbc Sync="TRUE"></leftbc>
+
+            <rightbc Sync="TRUE"></rightbc>
+
+            <bottombc Sync="TRUE"></bottombc>
+
+            <topbc Sync="TRUE"></topbc>
+         </lboundng>
+      </spdom>
+
+      <keywords>
+         <theme>
+            <themekt></themekt>
+
+            <themekey></themekey>
+         </theme>
+      </keywords>
+
+      <accconst></accconst>
+
+      <useconst></useconst>
+
+      <natvform Sync="TRUE"></natvform>
+   </idinfo>
+
+   <dataIdInfo>
+      <envirDesc Sync="TRUE">Microsoft Windows 2000 Version 5.0 (Build 2195) Service Pack 4; ESRI ArcCatalog 9.0.0.535</envirDesc>
+
+      <dataLang>
+         <languageCode Sync="TRUE" value="en">
+         </languageCode>
+      </dataLang>
+
+      <idCitation>
+         <resTitle Sync="TRUE"></resTitle>
+
+         <presForm>
+            <PresFormCd Sync="TRUE" value="005">
+            </PresFormCd>
+         </presForm>
+      </idCitation>
+
+      <spatRpType>
+         <SpatRepTypCd Sync="TRUE" value="001">
+         </SpatRepTypCd>
+      </spatRpType>
+
+      <dataExt>
+         <geoEle>
+            <GeoBndBox esriExtentType="native">
+               <westBL Sync="TRUE"></westBL>
+
+               <eastBL Sync="TRUE"></eastBL>
+
+               <northBL Sync="TRUE"></northBL>
+
+               <southBL Sync="TRUE"></southBL>
+
+               <exTypeCode Sync="TRUE"></exTypeCode>
+            </GeoBndBox>
+         </geoEle>
+      </dataExt>
+
+      <geoBox esriExtentType="decdegrees">
+         <westBL Sync="TRUE"></westBL>
+
+         <eastBL Sync="TRUE"></eastBL>
+
+         <northBL Sync="TRUE"></northBL>
+
+         <southBL Sync="TRUE"></southBL>
+
+         <exTypeCode Sync="TRUE"></exTypeCode>
+      </geoBox>
+   </dataIdInfo>
+
+   <metainfo>
+      <langmeta Sync="TRUE"></langmeta>
+
+      <metstdn Sync="TRUE"></metstdn>
+
+      <metstdv Sync="TRUE"></metstdv>
+
+      <mettc Sync="TRUE"></mettc>
+
+      <metextns>
+         <onlink Sync="TRUE">http://www.esri.com/metadata/esriprof80.html</onlink>
+
+         <metprof Sync="TRUE">ESRI Metadata Profile</metprof>
+      </metextns>
+
+      <metc>
+         <cntinfo>
+            <cntorgp>
+               <cntper></cntper>
+
+               <cntorg></cntorg>
+            </cntorgp>
+
+            <cntaddr>
+               <addrtype></addrtype>
+
+               <city></city>
+
+               <state></state>
+
+               <postal></postal>
+            </cntaddr>
+
+            <cntvoice></cntvoice>
+         </cntinfo>
+      </metc>
+
+      <metd Sync="TRUE"></metd>
+   </metainfo>
+
+   <mdLang>
+      <languageCode Sync="TRUE" value="en">
+      </languageCode>
+   </mdLang>
+
+   <mdStanName Sync="TRUE">ISO 19115 Geographic Information - Metadata</mdStanName>
+
+   <mdStanVer Sync="TRUE">DIS_ESRI1.0</mdStanVer>
+
+   <mdChar>
+      <CharSetCd Sync="TRUE" value="004">
+      </CharSetCd>
+   </mdChar>
+
+   <mdHrLv>
+      <ScopeCd Sync="TRUE" value="005">
+      </ScopeCd>
+   </mdHrLv>
+
+   <mdHrLvName Sync="TRUE"></mdHrLvName>
+
+   <distinfo>
+      <resdesc Sync="TRUE"></resdesc>
+
+      <stdorder>
+         <digform>
+            <digtinfo>
+               <transize Sync="TRUE"></transize>
+
+               <dssize Sync="TRUE"></dssize>
+            </digtinfo>
+         </digform>
+      </stdorder>
+   </distinfo>
+
+   <distInfo>
+      <distributor>
+         <distorTran>
+            <onLineSrc>
+               <orDesc Sync="TRUE"></orDesc>
+
+               <linkage Sync="TRUE"></linkage>
+
+               <protocol Sync="TRUE"></protocol>
+            </onLineSrc>
+
+            <transSize Sync="TRUE"></transSize>
+         </distorTran>
+
+         <distorFormat>
+            <formatName Sync="TRUE"></formatName>
+         </distorFormat>
+      </distributor>
+   </distInfo>
+
+   <spdoinfo>
+      <direct Sync="TRUE"></direct>
+
+      <ptvctinf>
+         <esriterm Name="">
+            <efeatyp Sync="TRUE"></efeatyp>
+
+            <efeageom Sync="TRUE"></efeageom>
+
+            <esritopo Sync="TRUE"></esritopo>
+
+            <efeacnt Sync="TRUE"></efeacnt>
+
+            <spindex Sync="TRUE"></spindex>
+
+            <linrefer Sync="TRUE"></linrefer>
+         </esriterm>
+
+         <sdtsterm Name="">
+            <sdtstype Sync="TRUE"></sdtstype>
+
+            <ptvctcnt Sync="TRUE"></ptvctcnt>
+         </sdtsterm>
+      </ptvctinf>
+   </spdoinfo>
+
+   <spref>
+      <horizsys>
+         <cordsysn>
+            <geogcsn Sync="TRUE"></geogcsn>
+         </cordsysn>
+
+         <geograph>
+            <geogunit Sync="TRUE"></geogunit>
+
+            <latres Sync="TRUE"></latres>
+
+            <longres Sync="TRUE"></longres>
+         </geograph>
+
+         <geodetic>
+            <horizdn Sync="TRUE"></horizdn>
+
+            <ellips Sync="TRUE"></ellips>
+
+            <semiaxis Sync="TRUE"></semiaxis>
+
+            <denflat Sync="TRUE"></denflat>
+         </geodetic>
+      </horizsys>
+   </spref>
+
+   <refSysInfo>
+      <RefSystem>
+         <refSysID>
+            <identCode Sync="TRUE"></identCode>
+         </refSysID>
+      </RefSystem>
+   </refSysInfo>
+
+   <spatRepInfo>
+      <VectSpatRep>
+         <topLvl>
+            <TopoLevCd Sync="TRUE" value="001">
+            </TopoLevCd>
+         </topLvl>
+
+         <geometObjs Name="">
+            <geoObjTyp>
+               <GeoObjTypCd Sync="TRUE" value="001">
+               </GeoObjTypCd>
+            </geoObjTyp>
+
+            <geoObjCnt Sync="TRUE"></geoObjCnt>
+         </geometObjs>
+      </VectSpatRep>
+   </spatRepInfo>
+
+   <eainfo>
+      <detailed Name="">
+         <enttyp>
+            <enttypl Sync="TRUE"></enttypl>
+
+            <enttypt Sync="TRUE"></enttypt>
+
+            <enttypc Sync="TRUE"></enttypc>
+         </enttyp>
+
+         <attr>
+            <attrlabl Sync="TRUE">FID</attrlabl>
+
+            <attalias Sync="TRUE">FID</attalias>
+
+            <attrtype Sync="TRUE">OID</attrtype>
+
+            <attwidth Sync="TRUE">4</attwidth>
+
+            <atprecis Sync="TRUE">0</atprecis>
+
+            <attscale Sync="TRUE">0</attscale>
+
+            <attrdef Sync="TRUE">Internal Feature Number</attrdef>
+
+            <attrdefs Sync="TRUE">ESRI</attrdefs>
+
+            <attrdomv>
+               <udom Sync="TRUE">Sequential unique whole numbers that are automatically generated.</udom>
+            </attrdomv>
+         </attr>
+
+         <attr>
+            <attrlabl Sync="TRUE">Shape</attrlabl>
+
+            <attalias Sync="TRUE">Shape</attalias>
+
+            <attrtype Sync="TRUE">Geometry</attrtype>
+
+            <attwidth Sync="TRUE">0</attwidth>
+
+            <atprecis Sync="TRUE">0</atprecis>
+
+            <attscale Sync="TRUE">0</attscale>
+
+            <attrdef Sync="TRUE">Feature Geometry.</attrdef>
+
+            <attrdefs Sync="TRUE">ESRI</attrdefs>
+
+            <attrdomv>
+               <udom Sync="TRUE">Coordinates defining the features.</udom>
+            </attrdomv>
+         </attr>
+
+      </detailed>
+   </eainfo>
+
+   <mdDateSt Sync="TRUE"></mdDateSt>
+</metadata>
+
